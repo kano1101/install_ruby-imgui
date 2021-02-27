@@ -1,6 +1,10 @@
 git clone git@github.com:vaiorabbit/ruby-imgui.git
 
 cd ruby-imgui/
+
+gem install opengl-bindings
+gem install ffi
+
 git submodule update --init --recursive
 
 cd cimgui
